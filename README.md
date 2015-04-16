@@ -1,6 +1,6 @@
 AngularJS-Model-From-Value
 ==========================
 
-AngularJS directive that allows the population of angular models from the value attribute of form elements.
+Rendering forms fields with their values server side is not the angular way, ideally you should be rendering client side if you are using angular. But if you must use angular with a server-side rendered form, this directive will help you do that.
 
-This is useful for forms that are rendered with their values on the server side. (Note: this is not the angular way, ideally you should be rendering client side if you are using angular.)
+This directive populates angular $scope vars from the values the form fields had when the page loaded.
