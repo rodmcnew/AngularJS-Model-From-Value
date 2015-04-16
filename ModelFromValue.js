@@ -1,6 +1,11 @@
 /**
- * Allow angular models to init their values from what zf2 form put in the html
- * value attribute
+ * Rendering forms fields with their values server side is not the angular way, 
+ * ideally you should be rendering client side if you are using angular. But if
+ * you must use angular with a server-side rendered form, this directive will 
+ * help you do that.
+ * 
+ * This directive populates angular $scope vars from the values the form fields
+ * had when the page loaded.
  *
  * Use like this:
  * <input data-ng-model="addSecondUser" data-init-from-form value="1">
