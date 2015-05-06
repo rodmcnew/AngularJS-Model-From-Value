@@ -1,4 +1,4 @@
-AngularJS-Model-From-Value
+Model-From-Value AngularJS Directive
 ==========================
 
 Rendering form fields and their values server-side is not the angular way. But if you must use angular with a server-side rendered form, this directive will help you do that.
